@@ -1,11 +1,14 @@
-import './app'
-import { Exemplo } from "./Exemplo";
+import './App.css'
+import { Exemplo } from './Exemplo'
 export default function App() {
-  const lista = [{nome: "Ani", idade: 16, cidade: "Mora em Nova Andradina"} ,{nome: "Máfer", 16, cidade: "Mora em Nova Andradina"}, nome: "Monis, 15 anos, Mora em Nova Andradina", "Mari, 16 anos, Mora em Nova Andradina", "Bazy, 17 anos, Mora em Nova Andradina"]
+  const listaalunos = [
+    {nome: "Ani", idade: 16, cidade: "Nova Andradina"}, 
+    {nome: "Máfer", idade: 16, cidade: "Nova Andradina"},
+    {nome: "Monis", idade: 16, cidade: "Nova Andradina"}];
     return (
       <div>
         <h1>Hello Word!</h1>
-        <Exemplo lista= {listaalunos}/>
+        <Exemplo lista = {listaalunos}/>
       </div>
   
     );
